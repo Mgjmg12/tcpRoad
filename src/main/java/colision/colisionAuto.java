@@ -1,11 +1,13 @@
 package colision;
 
+import auto.Auto;
+
 public class colisionAuto extends modoColision{
 
 	@Override
-	public void accion() {
+	public void accion(Auto auto) {
 		
-		System.out.println("chocaste");
+		auto.setVelocidad(auto.getVelocidad()-40);
 	}
 	
 	

@@ -1,12 +1,13 @@
 package auto;
 
+import coordenada.Coordenada;
 import mapa.Mapa;
 import usuario.Usuario;
 
 public class Auto {
 
 	private int velocidad;
-	private Mapa ubicacion;
+	private Coordenada ubicacion;
 	private int distanciaRecorrida;
 	private Usuario piloto;
 
@@ -20,12 +21,12 @@ public class Auto {
 	}
 
 
-	public Mapa getUbicacion() {
+	public Coordenada getUbicacion() {
 		return ubicacion;
 	}
 
 
-	public void setUbicacion(Mapa ubicacion) {
+	public void setUbicacion(Coordenada ubicacion) {
 		this.ubicacion = ubicacion;
 	}
 

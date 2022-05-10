@@ -1,11 +1,13 @@
 package colision;
 
+import auto.Auto;
+
 public class Colision{
 
 	private Colision modoColision;
 	
-	public void accion()
+	public void accion(Auto auto)
 	{
-		modoColision.accion();
+		modoColision.accion(auto);
 	}
 }

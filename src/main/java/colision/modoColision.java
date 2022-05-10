@@ -1,5 +1,6 @@
 package colision;
 
+import auto.Auto;
 import coordenada.Coordenada;
 
 public abstract class modoColision{
@@ -8,6 +9,6 @@ public abstract class modoColision{
 	protected Coordenada posicion;
 	protected int distanciaRecorrida;
 	
-	public abstract void accion();
+	public abstract void accion(Auto auto);
 	
 }
